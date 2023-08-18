@@ -5,7 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaTicketProcessing", "FormulaTicketProcessing\FormulaTicketProcessing.csproj", "{B75D8BC9-7FE8-4339-B986-7FC46FF2FD11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaAirLine", "FormulaAirLine\FormulaAirLine.csproj", "{CDD17B65-E313-4DEA-A984-FEF116872BBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaAir", "FormulaAir\FormulaAir.csproj", "{FD854290-2127-4CEE-95FC-A7DDCAB1020E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B7610D0-29C9-4D59-BE70-DDA4E252C602}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +22,15 @@ Global
 		{B75D8BC9-7FE8-4339-B986-7FC46FF2FD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B75D8BC9-7FE8-4339-B986-7FC46FF2FD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B75D8BC9-7FE8-4339-B986-7FC46FF2FD11}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CDD17B65-E313-4DEA-A984-FEF116872BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CDD17B65-E313-4DEA-A984-FEF116872BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CDD17B65-E313-4DEA-A984-FEF116872BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CDD17B65-E313-4DEA-A984-FEF116872BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD854290-2127-4CEE-95FC-A7DDCAB1020E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD854290-2127-4CEE-95FC-A7DDCAB1020E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD854290-2127-4CEE-95FC-A7DDCAB1020E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD854290-2127-4CEE-95FC-A7DDCAB1020E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8E58CC3-149D-4996-947C-673BF25221BA}
 	EndGlobalSection
 EndGlobal
